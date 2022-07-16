@@ -1,0 +1,134 @@
+.l img {
+    height: 792px;
+    width: 375px;
+}
+.l {
+    float: left;
+}
+.r {
+    float: right;
+    width: calc(100% - 375px);
+    height: 792px;
+}
+.r .header {
+    width: 100%;
+    margin-top: 25px;
+}
+.r .header .a1 img {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.r .header .a1 {
+    float: left;
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #333;
+}
+.r .header .a2 {
+    float: right;
+    margin-right: 30px;
+}
+.r .header .a2 li {
+    float: right;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #838383;
+    line-height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.r .header .a2 ul :nth-child(2) {
+    width: 1px;
+    margin-top: 13px;
+    height: 16px;
+    background-color: #ddd;
+}
+.r .header .a2 li:hover {
+    color: #ff6700;
+}
+.r .reg {
+    width: 450px;
+    height: 400px;
+    margin: 200px auto 0;
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.1);
+}
+.r .reg .a1 {
+    width: 450px;
+    height: 60px;
+    margin: 0 auto;
+}
+.r .reg .a1 i {
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    text-align: right;
+}
+.r .reg .a1 input {
+    width: 300px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #f9f9f9;
+}
+.r .reg .a2 {
+    width: 450px;
+    height: 60px;
+    margin: 20px auto 0;
+}
+.r .reg .a2 i {
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    width: 100px;
+}
+.r .reg .a2 input {
+    width: 300px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #f9f9f9;
+}
+.r .reg .a3 {
+    width: 450px;
+    height: 60px;
+    margin: 20px auto 0;
+}
+.r .reg .a3 i {
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    width: 100px;
+}
+.r .reg .a3 input {
+    width: 300px;
+    height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #f9f9f9;
+}
+.r .reg .a4 {
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+} 
+.r .reg .a5 input {
+    width: 300px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: #ffbe99;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.r .reg .a5 input:hover {
+    background-color: #ff5c00;
+}
+.r .footer {
+    margin-top: 150px;
+    margin-left: 345px;
+    width: calc(100% - 375px);
+    font-size: 12px;
+}

@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?93i3he');
+  src:  url('../fonts/icomoon.eot?93i3he#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?93i3he') format('truetype'),
+    url('../fonts/icomoon.woff?93i3he') format('woff'),
+    url('../fonts/icomoon.svg?93i3he#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 左浮 */
+.fl {
+    float: left;
+}
+/* 右浮 */
+.fr {
+    float: right;
+}
+/* 快捷导航 */
+.shortcut {
+    height: 40px;
+    background-color: #333333;
+    line-height: 40px;
+    font-size: 12px;
+}
+.shortcut a {
+    color: #b0b0b0;
+}
+.shortcut a:hover {
+    color: #ffffff;
+}
+.shortcut .fl ul li {
+    float: left;  
+}
+.shortcut .fr ul li {
+    float: right;
+}
+/* 选择偶数li */
+.shortcut .fl ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #424242;
+    margin: 14px 8px 0;
+}
+.shortcut .fr ul li:nth-child(1) {
+    width: 100px;
+    height: 40px;
+    color: #b0b0b0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #424242;
+    font-family: 'icomoon';
+    cursor: pointer;
+}
+.shortcut .fr .b {
+    margin-right: 30px;
+}
+.shortcut .fr ul li:nth-child(1):hover {
+    color: #ffffff;
+}
+.shortcut .fr .xian {
+    width: 1px;
+    height: 12px;
+    background-color: #424242;
+    margin: 14px 8px 0;
+}
+/* 固定模块 */
+.gu  {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    width: 80px;
+    height: 500px;
+    border-top: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+}
+.gu div {
+    width: 80px;
+    height: 100px;
+    border-bottom: 1px solid #f5f5f5;
+    cursor: pointer;
+}
+.gu div img {
+    margin: 15px 20px 0;
+    width: 40px;
+    height: 40px;
+}
+.gu div p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14pxs;
+}
+/* 头部制作 */
+.header {
+    position: relative;
+    height: 125px;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    width: 56px;
+    height: 56px;
+}
+.logo a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo-mi2.png);
+    background-size: 56px;
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 370px;
+    height: 63px;
+    border: 1px solid #b0b0b0;
+}
+.search input {
+    float: left;
+    width: 300px;
+    height: 61px;
+    padding-left: 10px;
+}
+.search button {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'icomoon';
+    float: right;
+    border-left: 1px solid #b0b0b0;
+    width: 60px;
+    height: 61px;
+    background-color: #ffffff;
+}
+.search button:hover {
+    background-color: #ff6700;
+}
+.tishi {
+    position: absolute;
+    top: 89px;
+    left: 354px;
+}
+.tishi .dd {
+    position: absolute;
+    top: 44px;
+    left: -200px;
+    width: 1200px;
+    height: 200px;
+    background-color: royalblue;
+    display: none;
+}
+.tishi li:hover {
+    color: #ff6700;
+}
+.tishi .dt:hover.dd {
+    display: block;
+} 
+.tishi li { 
+    padding-right: 15px;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+.zhong {
+    width: 1200px;
+    height: 500px;
+}
+.rp img {
+    width: 1000px;
+    height: 500px;
+}
+.rp {
+    float: right;
+    position: relative;
+}
+.rp div {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 2px #8c9cb2 solid;
+    border-radius: 5px;
+    background-color: #677986;
+    cursor: pointer;
+}
+.rp div:hover {
+    background-color: #cddfec;
+}
+.rp .yuan1 {
+    bottom: 30px;
+    right: 30px;
+}
+.rp .yuan2 {
+    bottom: 30px;
+    right: 50px;
+}
+.rp .yuan3 {
+    bottom: 30px;
+    right: 70px;
+}
+.rp .yuan4 {
+    bottom: 30px;
+    right: 90px;
+}
+.liebiao {
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-color: #697e8c;
+}
+.liebiao ul li {
+    position: relative;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 30px;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+}
+.liebiao li::after {
+    position: absolute;
+    right: 20px;
+    font-family: 'icomoon';
+    content: '';
+}
+.liebiao .top {
+    width: 200px;
+    height: 25px;
+}
+.liebiao ul li:hover {
+    background-color: #ff6700;
+}
+.footer {
+    margin-top: 20px;
+    height: 600px;
+}
+.footer .top {
+    height: 100px;
+    line-height: 100px;
+}
+.footer .top ul li {
+    text-align: center;
+    width: 240px;
+    float: left;
+    font-size: 16px;
+}
+.footer .top ul li:nth-child(-n+4) {
+    border-right: 1px solid #e0e0e0;
+}
+.footer .top ul li:hover {
+    color: #ff6700;
+    cursor: pointer;
+}
+.footer .line {
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.footer .a {
+    height: 300px;
+}
+.footer .a .a1 {
+    height: 300px;
+    float: left;
+    width: 960px;
+}
+.footer .a .a1 div {
+    float: left;
+    width: 160px;
+}
+.footer .a .a1 dt {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer .a .a1 dd {
+    margin-top: 10px;
+}
+.footer .a .a1 dt:hover {
+    color: #ff6700;
+}
+.footer .a .a1 dd:hover {
+    color: #ff6700;
+}
+.footer .a .a2 {
+    float: left;
+    width: 239px;
+    height: 300px;
+    padding: 50px 60px 0 25px;
+}
+.footer .a .xian{
+    float: left;
+    margin-top: 50px;
+    width: 1px;
+    height: 100px;
+    background-color: #e0e0e0;
+}
+.footer .a .a2 .phone {
+    font-size: 22px;
+    color: #ff6700;
+}
+.footer .a .a2 .hezi {
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ff6700;;
+}
+.footer .a .a2 .hezi:hover {
+    background-color: #ff6700;
+}
+.footer .a .a1 dd {
+    cursor: pointer;
+}
+.footer .a .a1 dt {
+    cursor: pointer;
+}
+.footer .zuihou {
+    height: 200px;
+    background-color: #fafafa;
+}
+.footer .zuihou .a {
+    width: 1200px;
+}
+.footer .zuihou .a .l {
+    float: left;
+    margin-top: 40px;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo-mi2.png);
+    background-size: 56px;
+}
+.footer .zuihou .a .r {
+    float: left;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+.footer .zuihou .w .r a:hover{
+    color: #ff6700;
+}
